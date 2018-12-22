@@ -28,9 +28,13 @@ Directly aggregating word embedding **V** for text sequence representation **z**
 There are four steps to use this codebase to reproduce the results in the paper.
 
 1. [Dependencies](#dependencies) 
+
 2. [Soft Q-learning](#Soft-Q-learning) 
+
 3. [Constrained Domain Sampling](#Constrained-Domain-Sampling) 
+
 4  [Entropy Regularization](#Entropy-regularization) 
+
 5. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
 ## Dependencies
