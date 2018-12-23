@@ -18,7 +18,9 @@ Comparison of **RAS** and **GAN** learning scenarios to target distribution p(x)
 RAS: Reference-based Adversarial Sampling  |   GAN 
 :-------------------------:|:-------------------------:
 ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
-We propose the “reference” **p_r** to bridge unnormalized form **u** and neural samples **q** to make the evaluations of both term feasible. | Directly matching neural samples **q** to empirical samples **p_**
+We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both terms feasible. | Directly matching neural samples **q** to empirical samples **p_**
+:-------------------------:|:-------------------------:
+unnormalized form **u** (**p**)  | empirical samples **p_** (**p**) 
 
 
 
