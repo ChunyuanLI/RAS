@@ -59,7 +59,7 @@ It takes the following options (among others) as arguments:
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Ant-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
-| ![](https://i.makeagif.com/media/3-27-2018/u2cewJ.gif) | ![](https://outlookseries.com/A0972/Infrastructure/image7.gif) | ![](https://devblogs.nvidia.com/wp-content/uploads/2016/04/hopper-1.gif) | ![](https://cdn.vox-cdn.com/thumbor/9ls1wrMmrTly-w13CtfDdX2-Htc=/0x0:1000x624/1200x800/filters:focal(420x232:580x392):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/55248701/Hopper_Backflips_170526_r01.0.gif) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://blog.openai.com/content/images/2017/05/image4.gif)
+| ![](https://i.makeagif.com/media/3-27-2018/u2cewJ.gif) | ![](https://outlookseries.com/A0972/Infrastructure/image7.gif) | ![](https://devblogs.nvidia.com/wp-content/uploads/2016/04/hopper-1.gif) | ![](https://ask.qcloudimg.com/http-save/yehe-1326493/xzyqmpribu.gif) | ![](https://blog.openai.com/content/images/2017/02/running_bug.gif) | ![](https://blog.openai.com/content/images/2017/05/image4.gif)
 
 ## Constrained Domain Sampling
 
