@@ -19,7 +19,7 @@ Comparison of **RAS** and **GAN** learning scenarios: learning a neural sampler 
 
 |**Algorithm** | RAS  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
-| **Illustration** | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
+| **Illustration** | ![](/figs/scheme/ras_scheme.png)  |   ![](/figs/scheme/gan_scheme.png)
 | **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both F_1 and F_2 terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
 | **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
 | **Generator** |  ![](https://latex.codecogs.com/gif.latex?\log[\frac{u(x)}{q_{\theta}(x)}&space;]=&space;\underbrace{&space;\log&space;\big[\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;\big]}_{\mathcal{F}_1}&space;&plus;&space;\underbrace{&space;\log&space;\big[\frac{&space;u&space;(x)&space;}{p_{r}(x)&space;}\big]&space;}_{\mathcal{F}_2})  | ![](https://latex.codecogs.com/gif.latex?\log[\frac{p^{\prime}(x)}{q_{\theta}(x)}&space;])
