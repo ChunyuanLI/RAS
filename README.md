@@ -13,13 +13,12 @@ This repository contains source code necessary to reproduce the results presente
 ```
 
 
+Comparison of **RAS** and **GAN** learning scenarios to target distribution p(x)
 
-Comparison Illustration of proposed **LEAM** with traditional methods for text sequence representations
-
-GAN           |  RAS: Reference-based Adversarial Sampling
+RAS: Reference-based Adversarial Sampling  |   GAN 
 :-------------------------:|:-------------------------:
-![](/figs/gan_scheme.png) |  ![](/figs/ras_scheme.png)
-Directly aggregating word embedding **V** for text sequence representation **z** | We leverage the “compatibility” **G** between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**.
+![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
+We leverage the “compatibility” **G** between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**. | Directly aggregating word embedding **V** for text sequence representation **z**
 
 
 
