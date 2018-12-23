@@ -61,6 +61,8 @@ It takes the following options (among others) as arguments:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
 | ![](https://i.makeagif.com/media/3-27-2018/u2cewJ.gif) | ![](https://outlookseries.com/A0972/Infrastructure/image7.gif) | ![](https://devblogs.nvidia.com/wp-content/uploads/2016/04/hopper-1.gif) | ![](https://ask.qcloudimg.com/http-save/yehe-1326493/xzyqmpribu.gif) | ![](https://blog.openai.com/content/images/2017/02/running_bug.gif) | ![](https://user-images.githubusercontent.com/306655/28396526-d4ce6334-6cb0-11e7-825c-63a85c8ff533.gif)
 
+TODO: Replace the gif files with RAS results
+
 ## Constrained Domain Sampling
 
 To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b].
