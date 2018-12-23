@@ -18,7 +18,7 @@ Comparison Illustration of proposed **LEAM** with traditional methods for text s
 
 GAN           |  RAS: Label Embedding Attentive Model
 :-------------------------:|:-------------------------:
-![](/plots/schemes/scheme_a.png) |  ![](/plots/schemes/scheme_b.png)
+![](/figs/gan_scheme.pdf) |  ![](/plots/ras_scheme.pdf)
 Directly aggregating word embedding **V** for text sequence representation **z** | We leverage the “compatibility” **G** between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**.
 
 
