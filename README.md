@@ -59,12 +59,7 @@ It takes the following options (among others) as arguments:
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Hopper-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
-| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
+| ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4) | ![](https://gym.openai.com/v2018-02-21/videos/Ant-v2-020a942c-53e5-4091-88fe-7bc3ee8980ce/thumbnail.mp4)
 
 ## Constrained Domain Sampling
 
