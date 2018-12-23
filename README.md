@@ -16,6 +16,7 @@ The RAS (Referenced-based Adversarial Sampling) algorithm is proposed to enable 
 }
 ```
 
+## Introduction
 
 Comparison of **RAS** and **GAN** learning scenarios: learning a neural sampler **q** to approximate the target distribution **p**, where only the latter's unnormalized form **u** or empirical samples **p'** is available, respectively.
 
