@@ -30,11 +30,12 @@ There are three steps to use this codebase to reproduce the results in the paper
 1. [Dependencies](#dependencies)
 
 2. [Experiments](#experiments)
-      (
+
     2.1. [Adversarial Soft Q-learning](#adversarial-soft-q-learning)
+    
     2.2. [Constrained Domain Sampling](#constrained-domain-sampling)
+    
     2.3. [Entropy Regularization](#entropy-regularization) 
-    )
     
 3. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
@@ -69,7 +70,7 @@ To show that RAS can draw samples when the support is bounded, we apply it to sa
 
 ## Entropy Regularization
 
-An entropy term **H(x)** is approximated to stablize adversarial training. We consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [entropy](entropy): 
+An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [entropy](entropy): 
 
 To run:
 
