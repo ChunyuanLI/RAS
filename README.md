@@ -59,4 +59,7 @@ Jupyter notebooks in [`plots`](./plots) folders are used to reproduce paper figu
 Note that without modification, we have copyed our extracted results into the notebook, and script will output figures in the paper. If you've run your own training and wish to plot results, you'll have to organize your results in the same format instead.
 
 
+## Questions?
+Please drop us ([Chunyuan](http://chunyuan.li/), [Ke](https://github.com/beckybai), [Jianqiao](https://github.com/jianqiaol) or [Guoyin](https://github.com/guoyinwang)) a line if you have any questions.
+
 
