@@ -13,7 +13,7 @@ This repository contains source code necessary to reproduce the results presente
 ```
 
 
-Comparison of **RAS** and **GAN** learning scenarios for target distribution **p** (only its unnormalized form **u** or empirical samples **p'** is available)
+Comparison of **RAS** and **GAN** learning scenarios: learning neural sampler **q** to approximate the target distribution **p** (only its unnormalized form **u** or empirical samples **p'** is available)
 
 |**Algorithm** | RAS  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
@@ -21,7 +21,7 @@ Comparison of **RAS** and **GAN** learning scenarios for target distribution **p
 | **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
 | **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
 | **Generator** |  ![](https://latex.codecogs.com/gif.latex?\log[\frac{u(x)}{q_{\theta}(x)}&space;]=&space;\underbrace{&space;\log&space;\big[\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;\big]}_{\mathcal{F}_1}&space;&plus;&space;\underbrace{&space;\log&space;\big[\frac{&space;u&space;(x)&space;}{p_{r}(x)&space;}\big]&space;}_{\mathcal{F}_2})  | ![](https://latex.codecogs.com/gif.latex?\log[\frac{p^{\prime}(x)}{q_{\theta}(x)}&space;])
-| **Discriminator** | q vs p_r | q vs p' 
+| **Discriminator** | **q** vs **p_r** | **q** vs **p'**
 
 
 
