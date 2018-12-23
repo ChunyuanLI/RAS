@@ -30,9 +30,11 @@ There are three steps to use this codebase to reproduce the results in the paper
 1. [Dependencies](#dependencies)
 
 2. [Experiments](#experiments)
+      (
     2.1. [Soft Q-learning](#soft-q-learning)
     2.2. [Constrained Domain Sampling](#constrained-domain-sampling)
     2.3. [Entropy Regularization](#entropy-regularization) 
+    )
     
 3. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
