@@ -45,7 +45,12 @@ We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker
 
 To run:
 
-    python --env Hopper --method --ras
+    python --env Hopper --method ras
+
+It takes the following options (among others) as arguments:
+
+- `--env` It specifies the Mojoco/RLlab environment; default `Hopper`.   
+- `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
 
 ## Constrained Domain Sampling
 
@@ -63,7 +68,7 @@ To run:
     
 It takes the following options (among others) as arguments:
 
-- The `baseline` specifies the GAN variant for apply entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`] ; default `GAN`.   
+- The `baseline` specifies the GAN variant to apply the entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`]; default `GAN`.   
 - `--entropy`: To apply entropy regularizer or not.
   
 
