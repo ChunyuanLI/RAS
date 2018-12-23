@@ -1,5 +1,5 @@
 # Adversarial Learning of a Sampler Based on an Unnormalized Distribution
-RAS (Referenced-based Adversarial Sampling) and its applications to Soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
+The RAS (Referenced-based Adversarial Sampling) algorithm is proposed to enable adversarial learning applicable to general unnormalized distribution sampling, with demonstrations on constrained domain sampling and soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
 
 ```
 @inproceedings{Li_RAS_2019_AISTATS,
