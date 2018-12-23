@@ -39,11 +39,17 @@ This code is based on Python 2.7, with the main dependencies being [TensorFlow==
 
 ## Soft Q-learning
 
-We consider the following datasets: Yahoo, AGnews, DBPedia, yelp, yelp binary. For convenience, we provide pre-processed versions of all datasets. Data are prepared in pickle format. Each `.p` file has the same fields in same order: `train text`, `val text`, `test text`, `train label`, `val label`, `test label`, `dictionary` and `reverse dictionary`.
+We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`.
+
 
 ## Constrained Domain Sampling
 
+To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support $[a,b]$.
+
 ## Entropy Regularization
+
+An entropy term **H(x)** is approximated to stablize adversarial training.
+
 
 ## Reproduce paper figure results
 Jupyter notebooks in [`plots`](./plots) folders are used to reproduce paper figure results.
