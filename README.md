@@ -28,10 +28,10 @@ Comparison of **RAS** and **GAN** learning scenarios: learning a neural sampler 
 There are three steps to use this codebase to reproduce the results in the paper.
 
 1. [Dependencies](#dependencies) 
-2  [Experiments]
-  2.1 [Soft Q-learning](#Soft-Q-learning) 
-  2.2 [Constrained Domain Sampling](#Constrained-Domain-Sampling)
-  2.3 [Entropy Regularization](#Entropy-regularization) 
+2  [Experiments] 
+    2.1 [Soft Q-learning](#Soft-Q-learning) 
+    2.2 [Constrained Domain Sampling](#Constrained-Domain-Sampling)
+    2.3 [Entropy Regularization](#Entropy-regularization) 
 3. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
 ## Dependencies
@@ -53,7 +53,7 @@ It takes the following options (among others) as arguments:
 
 ## Constrained Domain Sampling
 
-To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support $[a,b]$.
+To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b].
 
 ## Entropy Regularization
 
