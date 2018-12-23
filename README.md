@@ -18,7 +18,7 @@ Comparison Illustration of proposed **LEAM** with traditional methods for text s
 
 GAN           |  RAS: Reference-based Adversarial Sampling
 :-------------------------:|:-------------------------:
-![](/figs/gan_scheme.png) |  ![](/plots/ras_scheme.png)
+![](/figs/gan_scheme.png) |  ![](/figs/ras_scheme.png)
 Directly aggregating word embedding **V** for text sequence representation **z** | We leverage the “compatibility” **G** between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**.
 
 
