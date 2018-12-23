@@ -31,7 +31,7 @@ There are three steps to use this codebase to reproduce the results in the paper
 
 2. [Experiments](#experiments)
       (
-    2.1. [Soft Q-learning](#soft-q-learning)
+    2.1. [Adversarial Soft Q-learning](#adversarial-soft-q-learning)
     2.2. [Constrained Domain Sampling](#constrained-domain-sampling)
     2.3. [Entropy Regularization](#entropy-regularization) 
     )
@@ -42,7 +42,7 @@ There are three steps to use this codebase to reproduce the results in the paper
 
 This code is based on Python 2.7, with the main dependencies being [TensorFlow==1.7.0](https://www.tensorflow.org/) and [Keras==2.1.5](https://keras.io/). Additional dependencies for running experiments are: `numpy`, `cPickle`, `scipy`, `math`, `gensim`. 
 
-## Soft Q-learning
+## Adversarial Soft Q-learning
 
 We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [sql]: 
 
