@@ -1,7 +1,5 @@
 # RAS: Referenced-based Adversarial Sampling 
-RAS and its applications to Soft Q-learning
-
-This repository contains source code necessary to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
+RAS and its applications to Soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
 
 ```
 @inproceedings{Li_RAS_2019_AISTATS,
@@ -13,7 +11,7 @@ This repository contains source code necessary to reproduce the results presente
 ```
 
 
-Comparison of **RAS** and **GAN** learning scenarios: learning neural sampler **q** to approximate the target distribution **p** (only its unnormalized form **u** or empirical samples **p'** is available)
+Comparison of **RAS** and **GAN** learning scenarios: learning a neural sampler **q** to approximate the target distribution **p** (where only its unnormalized form **u** or empirical samples **p'** is available)
 
 |**Algorithm** | RAS  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
@@ -27,13 +25,14 @@ Comparison of **RAS** and **GAN** learning scenarios: learning neural sampler **
 
 
 ## Contents
-There are four steps to use this codebase to reproduce the results in the paper.
+There are three steps to use this codebase to reproduce the results in the paper.
 
 1. [Dependencies](#dependencies) 
-2. [Soft Q-learning](#Soft-Q-learning) 
-3. [Constrained Domain Sampling](#Constrained-Domain-Sampling)
-4. [Entropy Regularization](#Entropy-regularization) 
-5. [Reproduce paper figure results](#reproduce-paper-figure-results) 
+2  [Experiments]
+  2.1 [Soft Q-learning](#Soft-Q-learning) 
+  2.2 [Constrained Domain Sampling](#Constrained-Domain-Sampling)
+  2.3 [Entropy Regularization](#Entropy-regularization) 
+3. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
 ## Dependencies
 
