@@ -75,7 +75,7 @@ To show that RAS can draw samples when the support is bounded, we apply it to sa
 
 
 | RAS: Beta reference | Gaussian reference  | SVGD | Amortized SVGD  
-|-------------------------|:-------------------------:|:-------------------------:
+|-------------------------|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/constrained/cons1_beta.png) | ![](/figs/constrained/cons1_gaussian.png) | ![](/figs/constrained/cons1_svgd_teacher.png) | ![](/figs/constrained/cons1_svgd_student.png)
 | ![](/figs/constrained/cons1_beta_2mode.png) | ![](/figs/constrained/cons1_gaussian_2mode.png) | ![](/figs/constrained/cons1_svgd_teacher_2mode.png) | ![](/figs/constrained/cons1_svgd_student_2mode.png)
 
