@@ -73,6 +73,12 @@ TODO: Replace the gif files with RAS results
 
 To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b].
 
+
+| RAS: Beta reference | Gaussian reference  | SVGD | Amortized SVGD  
+|-------------------------|:-------------------------:|:-------------------------:
+| ![](/figs/constrained/cons1_beta.png) | ![](/figs/constrained/cons1_gaussian.png) | ![](/figs/constrained/cons1_svgd_teacher.png) | ![](/figs/constrained/cons1_svgd_student.png)
+| ![](/figs/constrained/cons1_beta_2mode.png) | ![](/figs/constrained/cons1_gaussian_2mode.png) | ![](/figs/constrained/cons1_svgd_teacher_2mode.png) | ![](/figs/constrained/cons1_svgd_student_2mode.png)
+
 ## Entropy Regularization
 
 An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [entropy](entropy): 
