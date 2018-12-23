@@ -74,6 +74,10 @@ It takes the following options (among others) as arguments:
 - The `baseline` specifies the GAN variant to apply the entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`]; default `GAN`.   
 - `--entropy`: To apply entropy regularizer or not.
   
+| Entropy regularizer on 8-GMM toy dataset | SN-GAN  |   SN-GAN + Entropy  
+|-------------------------|:-------------------------:|:-------------------------:
+| ![](/figs/ras_scheme.png) | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
+
 
 ## Reproduce paper figure results
 Jupyter notebooks in [`plots`](./plots) folders are used to reproduce paper figure results.
