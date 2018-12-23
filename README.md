@@ -41,8 +41,11 @@ This code is based on Python 2.7, with the main dependencies being [TensorFlow==
 
 ## Soft Q-learning
 
-We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`.
+We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [sql]: 
 
+To run:
+
+    python --env Hopper --method --ras
 
 ## Constrained Domain Sampling
 
@@ -50,8 +53,19 @@ To show that RAS can draw samples when the support is bounded, we apply it to sa
 
 ## Entropy Regularization
 
-An entropy term **H(x)** is approximated to stablize adversarial training.
+An entropy term **H(x)** is approximated to stablize adversarial training. We consider to regulize the following GAN variants: `GAN`, [`SN-GAN`](https://arxiv.org/abs/1802.05957), `D2GAN` and `Unrolled-GAN`.
 
+All entropy-regularization code is at [entropy]: 
+
+To run:
+
+    python --baseline GAN --entropy
+    
+It takes the following options (among others) as arguments:
+
+- The `baseline` specifies the GAN variant for apply entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`] ; default `GAN`.   
+- `--entropy`: To apply entropy regularizer or not.
+  
 
 ## Reproduce paper figure results
 Jupyter notebooks in [`plots`](./plots) folders are used to reproduce paper figure results.
