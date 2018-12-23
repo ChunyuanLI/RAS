@@ -13,13 +13,13 @@ This repository contains source code necessary to reproduce the results presente
 ```
 
 
-Comparison of **RAS** and **GAN** learning scenarios to target distribution p(x)
+Comparison of **RAS** and **GAN** learning scenarios for target distribution **p** (only its unnormalized form **u** or empirical samples **p'** is available)
 
-| | RAS: Reference-based Adversarial Sampling  |   GAN 
+|**Algorithm** | RAS: Reference-based Adversarial Sampling  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
-| | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
-| Method | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
-| Setup | unnormalized form **u**  | empirical samples **p'**  
+| **Illustration** | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
+| **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
+| **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
 
 
 
