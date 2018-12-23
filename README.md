@@ -20,6 +20,7 @@ Comparison of **RAS** and **GAN** learning scenarios for target distribution **p
 | **Illustration** | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
 | **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
 | **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
+| **G** |  ![](https://latex.codecogs.com/gif.latex?\underbrace{&space;\log&space;\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;}_{f})  | ![](https://latex.codecogs.com/gif.latex?\underbrace{&space;\log&space;\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;}_{f})
 
 
 
