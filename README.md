@@ -1,7 +1,7 @@
 # Adversarial Learning of a Sampler Based on an Unnormalized Distribution
 
 (Under Construction...)
-[](https://ps.w.org/under-construction-page/assets/screenshot-10.png?rev=1840052)
+[](figs/under_construction.png)
 
 The RAS (Referenced-based Adversarial Sampling) algorithm is proposed to enable adversarial learning applicable to general unnormalized distribution sampling, with demonstrations on constrained domain sampling and soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
 
