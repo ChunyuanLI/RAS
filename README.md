@@ -21,6 +21,9 @@ RAS: Reference-based Adversarial Sampling  |   GAN
 We proposed the “reference” $p_r(x)$ between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**. | Directly aggregating word embedding **V** for text sequence representation **z**
 
 
+```tex
+\sum_{x=0}^n f(x)
+```
 
 
 ## Contents
