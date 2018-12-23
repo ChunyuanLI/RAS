@@ -76,7 +76,7 @@ It takes the following options (among others) as arguments:
   
 | Entropy regularizer on 8-GMM toy dataset | SN-GAN  |   SN-GAN + Entropy  
 |-------------------------|:-------------------------:|:-------------------------:
-| ![](/figs/ras_scheme.png) | ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
+| ![](/figs/entropy/Symmetric_KL_Divergence_iclr.png) | ![](/figs/entropy/sn_gan_8gmm.png)  |   ![](/figs/entropy/sn_gan_entropy_8gmm.png)
 
 
 ## Reproduce paper figure results
