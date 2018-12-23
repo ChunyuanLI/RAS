@@ -44,7 +44,7 @@ This code is based on Python 2.7, with the main dependencies being [TensorFlow==
 
 ## Adversarial Soft Q-learning
 
-We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [sql]: 
+We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [sql](/sql): 
 
 To run:
 
@@ -69,9 +69,7 @@ To show that RAS can draw samples when the support is bounded, we apply it to sa
 
 ## Entropy Regularization
 
-An entropy term **H(x)** is approximated to stablize adversarial training. We consider to regulize the following GAN variants: `GAN`, [`SN-GAN`](https://arxiv.org/abs/1802.05957), `D2GAN` and `Unrolled-GAN`.
-
-All entropy-regularization code is at [entropy]: 
+An entropy term **H(x)** is approximated to stablize adversarial training. We consider to regulize the following GAN variants: `GAN`, [`SN-GAN`](https://arxiv.org/abs/1802.05957), `D2GAN` and `Unrolled-GAN`. All entropy-regularization code is at [entropy](entropy): 
 
 To run:
 
