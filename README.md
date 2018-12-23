@@ -16,9 +16,9 @@ This repository contains source code necessary to reproduce the results presente
 
 Comparison Illustration of proposed **LEAM** with traditional methods for text sequence representations
 
-GAN           |  RAS: Label Embedding Attentive Model
+GAN           |  RAS: Reference-based Adversarial Sampling
 :-------------------------:|:-------------------------:
-![](/figs/gan_scheme.pdf) |  ![](/plots/ras_scheme.pdf)
+![](/figs/gan_scheme.png) |  ![](/plots/ras_scheme.png)
 Directly aggregating word embedding **V** for text sequence representation **z** | We leverage the “compatibility” **G** between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**.
 
 
@@ -28,13 +28,9 @@ Directly aggregating word embedding **V** for text sequence representation **z**
 There are four steps to use this codebase to reproduce the results in the paper.
 
 1. [Dependencies](#dependencies) 
-
 2. [Soft Q-learning](#Soft-Q-learning) 
-
 3. [Constrained Domain Sampling](#Constrained-Domain-Sampling)
-
 4. [Entropy Regularization](#Entropy-regularization) 
-
 5. [Reproduce paper figure results](#reproduce-paper-figure-results) 
 
 ## Dependencies
