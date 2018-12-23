@@ -55,6 +55,11 @@ It takes the following options (among others) as arguments:
 - `--env` It specifies the Mojoco/RLlab environment; default `Hopper`.   
 - `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
 
+
+| Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Hopper-v1 |  Walker-v1
+|-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+| ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
+
 ## Constrained Domain Sampling
 
 To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b].
@@ -74,6 +79,7 @@ It takes the following options (among others) as arguments:
 - The `baseline` specifies the GAN variant to apply the entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`]; default `GAN`.   
 - `--entropy`: To apply entropy regularizer or not.
   
+
 | Entropy regularizer on 8-GMM toy dataset | SN-GAN  |   SN-GAN + Entropy  
 |-------------------------|:-------------------------:|:-------------------------:
 | ![](/figs/entropy/Symmetric_KL_Divergence_iclr.png) | ![](/figs/entropy/sn_gan_8gmm.png)  |   ![](/figs/entropy/sn_gan_entropy_8gmm.png)
