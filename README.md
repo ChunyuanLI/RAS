@@ -18,12 +18,9 @@ Comparison of **RAS** and **GAN** learning scenarios to target distribution p(x)
 RAS: Reference-based Adversarial Sampling  |   GAN 
 :-------------------------:|:-------------------------:
 ![](/figs/ras_scheme.png)  |   ![](/figs/gan_scheme.png)
-We proposed the “reference” $p_r(x)$ between embedded words **V** and labels **C** to derive the attention score **β** for improved **z**. | Directly aggregating word embedding **V** for text sequence representation **z**
+We propose the “reference” **p_r** to bridge unnormalized form **u** and neural samples **q** to make the evaluations of both term feasible. | Directly matching neural samples **q** to empirical samples **p_**
 
 
-```tex
-\sum_{x=0}^n f(x)
-```
 
 
 ## Contents
