@@ -2,8 +2,7 @@
 
 Two dstribution examples are provided to compare different sampling method: 1-mode and 2-mode.
 
-We use 2-mode distribution to show how to use the code.
-
+We the following table to show how to use the code.
 
 
 | Method | 1-mode  |   2-mode 
