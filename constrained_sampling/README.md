@@ -13,3 +13,6 @@ We use 2-mode distribution to show how to use the code.
 | (Amortized) SVGD  | [demo_amortized_svgd_1mode.ipynb](./demo_amortized_svgd_1mode.ipynb)  |  [demo_amortized_svgd_2mode.ipynb](./demo_amortized_svgd_2mode.ipynb)
 | **Plot Figs** | [plot_estimation_mode1.ipynb](./plot_estimation_mode1.ipynb)  |  [plot_estimation_mode1.ipynb](./plot_estimation_mode1.ipynb)
    
+
+
+TODO: MCMC and its amorized version
