@@ -76,7 +76,7 @@ TODO: Replace the gif files with RAS results
 
 ## Constrained Domain Sampling
 
-To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b]. Please see the code in **[constrained_sampling](./constrained_sampling)**. 
+To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [c1,c2]. Please see the code in **[constrained_sampling](./constrained_sampling)**. 
 
 
 | RAS: Beta reference | RAS Gaussian ref.  | SVGD | Amortized SVGD  
