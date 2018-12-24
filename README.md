@@ -79,10 +79,12 @@ TODO: Replace the gif files with RAS results
 To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [a,b]. Please see the code in [constrained_sampling](./constrained_sampling) 
 
 
-| RAS: Beta reference | Gaussian reference  | SVGD | Amortized SVGD  
+| RAS: Beta reference | RAS Gaussian ref.  | SVGD | Amortized SVGD  
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/constrained/cons1_beta.png) | ![](/figs/constrained/cons1_gaussian.png) | ![](/figs/constrained/cons1_svgd_teacher.png) | ![](/figs/constrained/cons1_svgd_student.png)
 | ![](/figs/constrained/cons1_beta_2mode.png) | ![](/figs/constrained/cons1_gaussian_2mode.png) | ![](/figs/constrained/cons1_svgd_teacher_2mode.png) | ![](/figs/constrained/cons1_svgd_student_2mode.png)
+
+Please note that RAS Gaussian ref. recovers [AVB-AC](https://arxiv.org/abs/1701.04722) (Adversarial Variational Bayes with Adaptive Contrast).
 
 ## Entropy Regularization
 
