@@ -15,7 +15,7 @@ We the following table to show how to use the code.
 
 ## Sample Amortization
 
-We use the L2 metric as default for the comparison in this paper. Note that **the adversarial loss has been shown a better metric to match the distribution in amortizing samples** in [Learning to Sample with Adversarially Learned Likelihood-Ratio](https://openreview.net/pdf?id=S1eZGHkDM)
+We use the L2 metric as default for the comparison in this paper. Note that **the adversarial loss has been shown a better metric to match the distribution in amortizing samples** in [``Learning to Sample with Adversarially Learned Likelihood-Ratio''](https://openreview.net/pdf?id=S1eZGHkDM).
 
 
 ## On the use of Beta distribution
