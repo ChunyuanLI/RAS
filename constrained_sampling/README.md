@@ -13,7 +13,7 @@ We the following table to show how to use the code.
 | (Amortized) MCMC  | [L2S_amortized_mcmc_1mode.ipynb](./L2S_amortized_mcmc_1mode.ipynb)  |  [L2S_amortized_mcmc_2mode.ipynb](./L2S_amortized_mcmc_2mode.ipynb)
 | **Plot Figs** | [plot_estimation_mode1.ipynb](./plot_estimation_mode1.ipynb)  |  [plot_estimation_mode1.ipynb](./plot_estimation_mode1.ipynb)
 
-## Sample Amortization
+## Amortized Sampling
 
 We use the L2 metric as default for the comparison in this paper. Note that **the adversarial loss has been shown a better metric to match the distribution in amortizing samples** in [``Learning to Sample with Adversarially Learned Likelihood-Ratio''](https://openreview.net/pdf?id=S1eZGHkDM).
 
