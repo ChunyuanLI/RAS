@@ -64,7 +64,7 @@ To run:
 
 It takes the following options (among others) as arguments:
 
-- `--env` It specifies the Mojoco/RLlab environment; default `Hopper`.   
+- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.   
 - `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
 
 
@@ -89,7 +89,7 @@ _Please note that RAS Gaussian ref. recovers [AVB-AC](https://arxiv.org/abs/1701
 
 ## Entropy Regularization
 
-An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [`entropy`](./entropy): 
+An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regularize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [`entropy`](./entropy): 
 
 To run:
 
