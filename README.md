@@ -56,7 +56,7 @@ This code is based on Python 2.7, with the main dependencies being [TensorFlow==
 
 ## Adversarial Soft Q-learning
 
-We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [`**sql**`](/sql): 
+We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [`sql`](/sql): 
 
 To run:
 
@@ -77,7 +77,7 @@ TODO: Replace the gif files with RAS results
 
 ## Constrained Domain Sampling
 
-To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [c1,c2]. Please see the code at **[constrained_sampling](./constrained_sampling)**. 
+To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [c1,c2]. Please see the code at [`constrained_sampling`](./constrained_sampling). 
 
 
 | RAS: Beta ref. | RAS: Gaussian ref.  | SVGD | Amortized SVGD  
@@ -89,7 +89,7 @@ _Please note that RAS Gaussian ref. recovers [AVB-AC](https://arxiv.org/abs/1701
 
 ## Entropy Regularization
 
-An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [**entropy**](entropy): 
+An entropy term **H(x)** is approximated to stablize adversarial training. As examples, we consider to regulize the following GAN variants: [`GAN`](https://arxiv.org/abs/1406.2661), [`SN-GAN`](https://arxiv.org/abs/1802.05957), [`D2GAN`](https://arxiv.org/abs/1709.03831) and [`Unrolled-GAN`](https://arxiv.org/abs/1611.02163). All entropy-regularization code is at [`entropy`](./entropy): 
 
 To run:
 
