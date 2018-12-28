@@ -80,7 +80,7 @@ TODO: Replace the gif files with RAS results
 To show that RAS can draw samples when the support is bounded, we apply it to sample from the distributions with the support [c1,c2]. Please see the code in **[constrained_sampling](./constrained_sampling)**. 
 
 
-| RAS: Beta reference | RAS Gaussian ref.  | SVGD | Amortized SVGD  
+| RAS: Beta ref. | RAS: Gaussian ref.  | SVGD | Amortized SVGD  
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/constrained/cons1_beta.png) | ![](/figs/constrained/cons1_gaussian.png) | ![](/figs/constrained/cons1_svgd_teacher.png) | ![](/figs/constrained/cons1_svgd_student.png)
 | ![](/figs/constrained/cons1_beta_2mode.png) | ![](/figs/constrained/cons1_gaussian_2mode.png) | ![](/figs/constrained/cons1_svgd_teacher_2mode.png) | ![](/figs/constrained/cons1_svgd_student_2mode.png)
