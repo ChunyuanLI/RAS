@@ -22,7 +22,7 @@ The **RAS** (_Referenced-based Adversarial Sampling_) algorithm is proposed to e
 
 Learning a neural sampler **q** to approximate the target distribution **p**, where only the latter's unnormalized form **u** or empirical samples **p'** is available, respectively.
 
-| **Algorithm** | RAS  |   GAN 
+|  | RAS  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
 | **Illustration** | ![](/figs/scheme/ras_scheme.png)  |   ![](/figs/scheme/gan_scheme.png)
 | **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both F_1 and F_2 terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
