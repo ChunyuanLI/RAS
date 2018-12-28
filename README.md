@@ -29,10 +29,10 @@ Learning a neural sampler **q** to approximate the target distribution **p**, wh
 | **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
 | **Generator** |  ![](https://latex.codecogs.com/gif.latex?\log[\frac{u(x)}{q_{\theta}(x)}&space;]=&space;\underbrace{&space;\log&space;\big[\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;\big]}_{\mathcal{F}_1}&space;&plus;&space;\underbrace{&space;\log&space;\big[\frac{&space;u&space;(x)&space;}{p_{r}(x)&space;}\big]&space;}_{\mathcal{F}_2})  | ![](https://latex.codecogs.com/gif.latex?\log[\frac{p^{\prime}(x)}{q_{\theta}(x)}&space;])
 | **Discriminator** | **q** vs **p_r** | **q** vs **p'**
-| **Application to reinforcement learning** | Learning to take optimal actions based on Q-functions | [GAIL](https://arxiv.org/abs/1606.03476): Learning to take optimal actions based on expert sample trajectories (Imitation learning)
+| **Application to reinforcement learning** | Learning to take optimal actions based on Q-functions | [**GAIL**](https://arxiv.org/abs/1606.03476): Learning to take optimal actions based on expert sample trajectories (_a.k.a._ Imitation learning)
 
 ### Discussion
-1. In many applications (e.g. Soft Q-learining), only **u** is known, and we are inerested in drawing its samples efficiently
+1. In many applications (_e.g._ Soft Q-learining), only **u** is known, and we are inerested in drawing its samples efficiently
 2. The choice of **p_r** has an effect on learning; It should be carefully chosen.
 
 
