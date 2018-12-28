@@ -32,7 +32,7 @@ Learning a neural sampler **q** to approximate the target distribution **p**, wh
 | **Application to reinforcement learning** | Learning to take optimal actions based on Q-functions | [**GAIL**](https://arxiv.org/abs/1606.03476): Learning to take optimal actions based on expert sample trajectories (_a.k.a._ Imitation learning)
 
 ### Discussion
-1. In many applications (_e.g._ Soft Q-learining), only **u** is known, and we are inerested in drawing its samples efficiently
+1. In many applications (_e.g._ Soft Q-learining), only **u** is known, from which we are inerested in drawing samples efficiently
 2. The choice of **p_r** has an effect on learning; It should be carefully chosen.
 
 
