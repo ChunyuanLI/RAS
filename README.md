@@ -56,7 +56,7 @@ This code is based on Python 2.7, with the main dependencies being [TensorFlow==
 
 ## Adversarial Soft Q-learning
 
-We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [**sql**](/sql): 
+We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker`, `Swimmer` and `Humanoid`. All soft q-learning code is at [`**sql**`](/sql): 
 
 To run:
 
