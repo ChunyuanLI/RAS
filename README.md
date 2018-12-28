@@ -64,7 +64,7 @@ To run:
 
 It takes the following options (among others) as arguments:
 
-- `--env` It specifies the Mojoco/RLlab environment; default `Hopper`.   
+- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.   
 - `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
 
 
