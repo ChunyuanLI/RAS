@@ -22,14 +22,14 @@ The **RAS** (_Referenced-based Adversarial Sampling_) algorithm is proposed to e
 
 Learning a neural sampler **q** to approximate the target distribution **p**, where only the latter's unnormalized form **u** or empirical samples **p'** is available, respectively.
 
-|**Algorithm** | RAS  |   GAN 
+| **Algorithm** | RAS  |   GAN 
 |-------------------------|:-------------------------:|:-------------------------:
 | **Illustration** | ![](/figs/scheme/ras_scheme.png)  |   ![](/figs/scheme/gan_scheme.png)
 | **Method** | We propose the “reference” **p_r** to bridge neural samples **q**  and unnormalized form **u**, making the evaluations of both F_1 and F_2 terms feasible. | Directly matching neural samples **q** to empirical samples **p'**
 | **Setup** | Learning from unnormalized form **u**  | Learning from empirical samples **p'**  
 | **Generator** |  ![](https://latex.codecogs.com/gif.latex?\log[\frac{u(x)}{q_{\theta}(x)}&space;]=&space;\underbrace{&space;\log&space;\big[\frac{&space;p_{r}(x)&space;}{&space;q_{\theta}&space;(x)&space;}&space;\big]}_{\mathcal{F}_1}&space;&plus;&space;\underbrace{&space;\log&space;\big[\frac{&space;u&space;(x)&space;}{p_{r}(x)&space;}\big]&space;}_{\mathcal{F}_2})  | ![](https://latex.codecogs.com/gif.latex?\log[\frac{p^{\prime}(x)}{q_{\theta}(x)}&space;])
 | **Discriminator** | **q** vs **p_r** | **q** vs **p'**
-| **Applications to Reinforcement learning** | Learning to take optimal actions based on Q-functions | [GAIL](https://arxiv.org/abs/1606.03476): Learning to take optimal actions based on expert sample trajectories (Imitation learning)
+| **Application to reinforcement learning** | Learning to take optimal actions based on Q-functions | [GAIL](https://arxiv.org/abs/1606.03476): Learning to take optimal actions based on expert sample trajectories (Imitation learning)
 
 ### Discussion
 1. In many applications (e.g. Soft Q-learining), only **u** is known, and we are inerested in drawing its samples efficiently
