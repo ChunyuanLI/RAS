@@ -1,0 +1,12 @@
+sym kl
+for pot1_hard:
+without EN:3.00
+with EN:1.96
+
+for pot2:
+without EN:8.92
+with EN:5.85
+
+for gmm: radius=0.5,std=0.05
+without EN:10.07
+with EN:9.01
