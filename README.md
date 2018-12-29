@@ -1,7 +1,6 @@
 # Adversarial Learning of a Sampler Based on an Unnormalized Distribution
 
-(Still Under Construction...)
-<img src="figs/under_construction.png" width="200">
+<img src="figs/under_construction.png" width="200">  _Still Under Construction..._
 
 --------------
 
