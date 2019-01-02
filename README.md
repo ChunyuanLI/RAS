@@ -63,9 +63,9 @@ To run:
 
 It takes the following options (among others) as arguments:
 
-- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.   
-- `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
-
+- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.  
+- `--log_dir` Address to save the training log.
+- For other arguements, please refer to [softqlearning](https://github.com/haarnoja/softqlearning)
 
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Ant-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
