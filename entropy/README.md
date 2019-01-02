@@ -1,6 +1,6 @@
 To learn a generator for 8gmm based on samples, run:
 
-    python run_test.py --model model_name --anneal anneal_flag
+    python run_test.py --model gan_cc --anneal 0
 
 
 `--model` The avaiable models include [`d2gan`,`gan`,`ALLgan`,`SNgan`,`d2gan_cc`,`gan_cc`,`ALLgan_cc`,`SNgan_cc`]. The entropy regularization is implemented using cycle-consistency-based method
