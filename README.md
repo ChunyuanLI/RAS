@@ -92,12 +92,11 @@ An entropy term **H(x)** is approximated to stablize adversarial training. As ex
 
 To run:
 
-    python --baseline GAN --entropy
+    python --model gan_cc
     
 It takes the following options (among others) as arguments:
 
-- The `baseline` specifies the GAN variant to apply the entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`]; default `GAN`.   
-- `--entropy`: To apply entropy regularizer or not.
+- The `--model` specifies the GAN variant to apply the entropy regularizer. It supports [`gan`,`d2gan`,`ALLgan`,`SNgan`]; default `gan`.  To apply entropy regularizer, change the argument of `--model` as [`gan_cc`,`d2gan_cc`,`ALLgan_cc`,`SNgan_cc`]
   
 
 | Entropy regularizer on 8-GMM toy dataset | SN-GAN  |   SN-GAN + Entropy  
