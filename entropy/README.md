@@ -12,3 +12,5 @@ To compare different ways to implement entropy regularizaiton,check the notebook
 RAS using cycle-consistency-based regularization: `8gmm_entropy_cc.ipynb`
     
 RAS using cross-entropy-based regularization: `8gmm_entropy_ce.ipynb`
+
+The code is tested on Python 2.7, with the main dependencies being TensorFlow==1.6.0.
