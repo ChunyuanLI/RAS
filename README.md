@@ -92,7 +92,7 @@ An entropy term **H(x)** is approximated to stablize adversarial training. As ex
 
 To run:
 
-    python --model gan_cc
+    python run_test.py --model gan_cc
     
 It takes the following options (among others) as arguments:
 
