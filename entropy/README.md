@@ -5,7 +5,7 @@ To learn a generator for 8gmm based on samples, run:
 
 `--model` The avaiable models include [`d2gan`,`gan`,`ALLgan`,`SNgan`,`d2gan_cc`,`gan_cc`,`ALLgan_cc`,`SNgan_cc`]. The entropy regularization is implemented using cycle-consistency-based method
 
---`anneal_flag` It could be 0 or 1
+`--anneal_flag` It could be 0 or 1
 
 To compare different ways to implement entropy regularizaiton,check the notebooks.
     
