@@ -13,14 +13,13 @@ from softqlearning.environments import GymEnv
 from softqlearning.algorithms import SQL
 from softqlearning.misc.kernel import adaptive_isotropic_gaussian_kernel
 from softqlearning.replay_buffers import SimpleReplayBuffer
-from softqlearning.value_functions import NNQFunction, DFunction,RFunction,VFunction
+from softqlearning.value_functions import NNQFunction, DFunction,VFunction
 from softqlearning.policies import StochasticNNPolicy
 import numpy as np
 import os, sys
 import shutil
 from distutils.dir_util import copy_tree
 from time import gmtime, strftime
-from rllab.misc import logger
 
 
 #os.environ['CUDA_VISIBLE_DEVICES']='0'
@@ -37,6 +36,7 @@ SHARED_PARAMS = {
     'max_pool_size': 1E6,
     'n_train_repeat': 1,
     'epoch_length': 1000,
+    'dist':'beta',
     'snapshot_mode': 'last',
     'snapshot_gap': 2000,
 }
@@ -169,7 +169,7 @@ def run_experiment(variant):
         df=df,
         vf=vf,
         df_lr=1e-3,
-        dist='beta',
+        dist=variant['dist'],
     )
 
     algorithm.train()
