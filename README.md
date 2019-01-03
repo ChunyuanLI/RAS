@@ -59,7 +59,7 @@ We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker
 
 To run:
 
-    python --env Hopper --method ras
+    python mujoco_all_sql.py --env Hopper
 
 It takes the following options (among others) as arguments:
 
