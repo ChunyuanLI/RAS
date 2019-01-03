@@ -67,6 +67,8 @@ It takes the following options (among others) as arguments:
 - `--log_dir` Address to save the training log.
 - For other arguements, please refer to [softqlearning](https://github.com/haarnoja/softqlearning)
 
+Other related parameters setting locate in the examples/mujoco_all_sql.py. The default reference distribution is Beta distribution. The reference distribution option supports "beta" and "norm" (The reference distribution is a Gaussian distribution).
+
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Ant-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
