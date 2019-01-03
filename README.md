@@ -70,7 +70,7 @@ It takes the following options (among others) as arguments:
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Ant-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
-| ![](./figs/sql/gif/swimmer.gif) | ![](./figs/sql/fig/human.gif) | ![](./figs/sql/gif/hopper.gif) | ![](./figs/sql/gif/hc1.gif) | ![](./figs/sql/gif/ant.gif) | ![](./figs/sql/gif/walker1.gif)
+| ![](./figs/sql/gif/swimmer.gif) | ![](./figs/sql/fig/gif/human.gif) | ![](./figs/sql/gif/hopper.gif) | ![](./figs/sql/gif/hc1.gif) | ![](./figs/sql/gif/ant.gif) | ![](./figs/sql/gif/walker1.gif)
 
 TODO: Replace the gif files with RAS results
 
