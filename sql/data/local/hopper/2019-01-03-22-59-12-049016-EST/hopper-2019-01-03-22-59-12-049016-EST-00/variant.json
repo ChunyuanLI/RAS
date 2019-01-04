@@ -1,0 +1,21 @@
+{
+  "_hidden_keys": [],
+  "batch_size": 128,
+  "discount": 0.99,
+  "dist": "beta",
+  "env_name": "Hopper-v1",
+  "epoch_length": 1000,
+  "exp_name": "hopper-2019-01-03-22-59-12-049016-EST-00",
+  "layer_size": 128,
+  "max_path_length": 1000,
+  "max_pool_size": 1000000.0,
+  "n_epochs": 3000,
+  "n_train_repeat": 1,
+  "policy_lr": 0.0003,
+  "prefix": "hopper",
+  "qf_lr": 0.0003,
+  "reward_scale": 1,
+  "seed": 1,
+  "snapshot_gap": 2000,
+  "snapshot_mode": "last"
+}

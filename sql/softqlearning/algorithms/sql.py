@@ -255,9 +255,9 @@ class SQL(RLAlgorithm, Serializable):
         
         # reference distribution
         tmp_action = tf.stop_gradient(actions)
-        if(self.policy=='norm'):
+        if(self.dist=='norm'):
             mean_action, var_action = tf.nn.moments(tmp_action,axes=1)
-        elif(self.policy=='beta'):
+        elif(self.dist=='beta'):
             mean_action, var_action = tf.nn.moments(tmp_action / 2 + 0.5, axes=1)
 
         obs = self._observations_ph[:, None, :]
