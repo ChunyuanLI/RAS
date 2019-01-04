@@ -1,2 +1,0 @@
-time-total,episode-length-max,time-sample,epoch,mean-sq-bellman-error,return-std,episodes,return-average,loss_log_density,last-path-return,episode-length-min,gen_loss,episode-length-std,self.D_fake_loss,qf-std,pool-size,time-train,qf-avg,return-max,episode-length-avg,time-eval,d_loss,max-path-return,return-min
-3.6794303450733423,18,3.0970706157386303,0,3.2947268,0.0,50,10.987500779045062,2.0500915,10.392838764406577,18,2.0613213,0.0,0.6989534,0.09731651,1000,0.23972465749830008,0.28152213,10.987500779045062,18.0,0,1.3863102,13.936860944419,10.987500779045062
