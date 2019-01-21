@@ -1,10 +1,10 @@
 # Adversarial Learning of a Sampler Based on an Unnormalized Distribution
 
-<img src="figs/under_construction.png" width="200">  _Still Under Construction..._
+<!--- 
+<img src="figs/under_construction.png" width="200">  Still Under Construction...
+-->
 
---------------
-
-The **RAS** (_Referenced-based Adversarial Sampling_) algorithm is proposed to enable adversarial learning applicable to general unnormalized distribution sampling, with demonstrations on constrained domain sampling and soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org) (AISTATS 2019):
+The **RAS** (_Referenced-based Adversarial Sampling_) algorithm is proposed to enable adversarial learning applicable to general unnormalized distribution sampling, with demonstrations on constrained domain sampling and soft Q-learning. This repository contains source code to reproduce the results presented in the paper [Adversarial Learning of a Sampler Based on an Unnormalized Distribution](https://arxiv.org/abs/1901.00612) (AISTATS 2019):
 
 ```
 @inproceedings{Li_RAS_2019_AISTATS,
@@ -59,20 +59,22 @@ We consider the following environments: `Hopper`, `Half-cheetah`, `Ant`, `Walker
 
 To run:
 
-    python --env Hopper --method ras
+    python mujoco_all_sql.py --env Hopper
 
 It takes the following options (among others) as arguments:
 
-- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.   
-- `--method`: To apply the sampling method. default 'ras'. It supports [`ras`, `svgd`].
+- `--env` It specifies the _MuJoCo_/_rllab_ environment; default `Hopper`.  
+- `--log_dir` Address to save the training log.
+- For other arguements, please refer to the github repo [soft-q-learning](https://github.com/haarnoja/softqlearning)
 
+Other related hyper-parameters setting are located in [`sql/examples/mujoco_all_sql.py`](./sql/examples/mujoco_all_sql.py). The default reference distribution is Beta distribution. The reference distribution option supports "beta" (Beta distribution) and "norm" (Gaussian distribution).
 
 | Swimmer (rllab) | Humanoid (rllab) |  Hopper-v1 |  Half-cheetah-v1 |  Ant-v1 |  Walker-v1
 |-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 | ![](/figs/sql/Swimmer-rllab.png) | ![](/figs/sql/Humanoid-rllab.png)  |  ![](/figs/sql/Hopper-v1.png) |  ![](/figs/sql/Half-cheetah-v1.png) |  ![](/figs/sql/Ant-v1.png) |  ![](/figs/sql/Walker-v1.png)
-| ![](https://i.makeagif.com/media/3-27-2018/u2cewJ.gif) | ![](https://outlookseries.com/A0972/Infrastructure/image7.gif) | ![](./figs/sql/gif/hopper.gif) | ![](./figs/sql/gif/hc1.gif) | ![](./figs/sql/gif/ant.gif) | ![](./figs/sql/gif/walker1.gif)
+| ![](./figs/sql/gif/swimmer.gif) | ![](./figs/sql/gif/human.gif) | ![](./figs/sql/gif/hopper.gif) | ![](./figs/sql/gif/hc1.gif) | ![](./figs/sql/gif/ant.gif) | ![](./figs/sql/gif/walker1.gif)
 
-TODO: Replace the gif files with RAS results
+_Note: Humanoid has a higher action space dimension, making adversarial learning instable; More future work is needed to make Humanoid run better._
 
 ## Constrained Domain Sampling
 
@@ -92,12 +94,11 @@ An entropy term **H(x)** is approximated to stablize adversarial training. As ex
 
 To run:
 
-    python --baseline GAN --entropy
+    python run_test.py --model gan_cc
     
 It takes the following options (among others) as arguments:
 
-- The `baseline` specifies the GAN variant to apply the entropy regularizer. It supports [`GAN`, `SN-GAN`, `D2GAN`, `Unrolled-GAN`]; default `GAN`.   
-- `--entropy`: To apply entropy regularizer or not.
+- The `--model` specifies the GAN variant to apply the entropy regularizer. It supports [`gan`,`d2gan`,`ALLgan`,`SNgan`]; default `gan`.  To apply entropy regularizer, change the argument of `--model` as [`gan_cc`,`d2gan_cc`,`ALLgan_cc`,`SNgan_cc`]
   
 
 | Entropy regularizer on 8-GMM toy dataset | SN-GAN  |   SN-GAN + Entropy  

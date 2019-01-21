@@ -6,6 +6,8 @@ import os
 import pdb
 
 import numpy as np
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.gridspec as gridspec
@@ -20,18 +22,24 @@ from argparse import ArgumentParser
 from GAN_models import GAN
 import time
 
+
+GPUID = 2
+os.environ["CUDA_VISIBLE_DEVICES"] = str(GPUID)
+
+
 slim = tf.contrib.slim
 ds = tf.contrib.distributions
 #st = tf.contrib.bayesflow.stochastic_tensor
 graph_replace = tf.contrib.graph_editor.graph_replace
 
 
+
 # build parser
 def build_parser():
     parser = ArgumentParser()
-    parser.add_argument('--model', type=str, required=True)
-    parser.add_argument('--anneal', type=int, required=True)
-    parser.add_argument('--sample_n',type=int,required=False,default=10000)
+    parser.add_argument('--model', type=str, required=True, default='gan_cc')
+    parser.add_argument('--anneal', type=int, required=True, default=0)
+    parser.add_argument('--sample_n',type=int,required=False, default=5000)
     parser.add_argument('--n_seed',type=int,required=False,default=10)
     parser.add_argument('--alpha', type=float,required=False,default=1.0)
     parser.add_argument('--beta', type=float,required=False,default=1.0)
