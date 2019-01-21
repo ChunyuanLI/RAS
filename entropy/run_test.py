@@ -31,7 +31,7 @@ def build_parser():
     parser = ArgumentParser()
     parser.add_argument('--model', type=str, required=True)
     parser.add_argument('--anneal', type=int, required=True)
-    parser.add_argument('--sample_n',type=int,required=True)
+    parser.add_argument('--sample_n',type=int,required=False,default=10000)
     parser.add_argument('--n_seed',type=int,required=False,default=10)
     parser.add_argument('--alpha', type=float,required=False,default=1.0)
     parser.add_argument('--beta', type=float,required=False,default=1.0)
